@@ -10,3 +10,13 @@ Real-world AI environment for customer support automation.
 
 ## Run
 python main.py
+
+---
+title: OpenEnv Support Agent
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: main.py
+pinned: false
+---
