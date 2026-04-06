@@ -15,3 +15,12 @@ action_space:
   - ask_help
 
 reward_range: [0.0, 1.0]
+---
+title: OpenEnv Support Agent
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: main.py
+pinned: false
+---
