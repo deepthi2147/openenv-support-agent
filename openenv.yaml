@@ -1,0 +1,17 @@
+name: support-env
+version: 1.0
+entry_point: main.py
+
+observation_space:
+  ticket_id: int
+  query: string
+  resolved: bool
+  steps: int
+
+action_space:
+  - reset_password
+  - process_refund
+  - track_order
+  - ask_help
+
+reward_range: [0.0, 1.0]
